@@ -1,2 +1,2 @@
 # SoftwareQA
-Assignment
+Selenium and Pytest Solutions
