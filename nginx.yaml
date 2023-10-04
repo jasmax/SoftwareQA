@@ -2,7 +2,7 @@ apiVerion: apps/v1
 kind: Deploymnet
 metadata:
   name: nginx-deployment
-    labels:
+  labels:
       app: nginx
 spec:
   replicas: 3
@@ -14,8 +14,8 @@ spec:
       labels:
         app: nginx
     spec:
-    containers:
-    - name: nginx
-      image: nginx:1.14.2
-      ports:
-      - containerPort: 80
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
